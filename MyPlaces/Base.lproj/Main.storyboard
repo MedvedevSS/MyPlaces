@@ -225,41 +225,6 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" rowHeight="75" id="HZm-r6-26X">
-                                        <rect key="frame" x="0.0" y="503" width="414" height="75"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="HZm-r6-26X" id="cPf-H8-TrH">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="75"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="bvt-YI-ObJ">
-                                                    <rect key="frame" x="16" y="8" width="382" height="63"/>
-                                                    <subviews>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Type" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cXb-vh-SLP">
-                                                            <rect key="frame" x="0.0" y="0.0" width="382" height="28.5"/>
-                                                            <fontDescription key="fontDescription" name="AppleSDGothicNeo-Thin" family="Apple SD Gothic Neo" pointSize="20"/>
-                                                            <nil key="textColor"/>
-                                                            <nil key="highlightedColor"/>
-                                                        </label>
-                                                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="bottom" placeholder="Place Type" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Y7v-Dq-W0d">
-                                                            <rect key="frame" x="0.0" y="36.5" width="382" height="26.5"/>
-                                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences" returnKeyType="done"/>
-                                                            <connections>
-                                                                <outlet property="delegate" destination="Ocg-vs-a4p" id="NYO-Bz-469"/>
-                                                            </connections>
-                                                        </textField>
-                                                    </subviews>
-                                                </stackView>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstItem="bvt-YI-ObJ" firstAttribute="top" secondItem="cPf-H8-TrH" secondAttribute="top" constant="8" id="TAb-PF-75B"/>
-                                                <constraint firstAttribute="bottom" secondItem="bvt-YI-ObJ" secondAttribute="bottom" constant="4" id="Z4a-eI-WUT"/>
-                                                <constraint firstAttribute="trailing" secondItem="bvt-YI-ObJ" secondAttribute="trailing" constant="16" id="gp5-Xd-2fk"/>
-                                                <constraint firstItem="bvt-YI-ObJ" firstAttribute="leading" secondItem="cPf-H8-TrH" secondAttribute="leading" constant="16" id="z4M-bl-daa"/>
-                                            </constraints>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
                                 </cells>
                             </tableViewSection>
                         </sections>
